@@ -1,0 +1,35 @@
+{
+  "name": "Dark Mode Toggle",
+  "short_name": "Dark Mode",
+  "description": "A beginner-friendly web app to learn dark mode toggle with JavaScript, CSS variables, and localStorage",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a1a1a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%23ffffff' width='192' height='192'/><text x='96' y='120' font-size='120' text-anchor='middle' fill='%231a1a1a' font-family='Arial'>🌙</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%23ffffff' width='512' height='512'/><text x='256' y='380' font-size='300' text-anchor='middle' fill='%231a1a1a' font-family='Arial'>🌙</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23ffffff' width='540' height='720'/><text x='270' y='360' font-size='200' text-anchor='middle' fill='%231a1a1a' font-family='Arial'>🌙</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "scope": "/",
+  "prefer_related_applications": false
+}
