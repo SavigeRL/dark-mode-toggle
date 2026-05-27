@@ -1,0 +1,26 @@
+{
+  "name": "dark-mode-toggle",
+  "version": "1.0.0",
+  "description": "A beginner-friendly web app to learn dark mode toggle with JavaScript, CSS variables, and localStorage",
+  "main": "index.html",
+  "scripts": {
+    "start": "Open index.html in your browser"
+  },
+  "keywords": [
+    "dark-mode",
+    "light-mode",
+    "toggle",
+    "learning",
+    "beginner",
+    "web-development",
+    "javascript",
+    "css",
+    "html"
+  ],
+  "author": "SavigeRL",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SavigeRL/dark-mode-toggle"
+  }
+}
