@@ -19,12 +19,24 @@ if (savedTheme) {
 
 // Add click event listener to toggle button
 themeToggle.addEventListener('click', () => {
+  toggleTheme();
+});
+
+// Add keyboard shortcut: Shift + D
+document.addEventListener('keydown', (event) => {
+  if (event.shiftKey && event.key === 'D') {
+    toggleTheme();
+  }
+});
+
+// Function to toggle theme
+function toggleTheme() {
   const currentTheme = body.classList.contains('dark-mode') ? 'dark' : 'light';
   const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
   
   applyTheme(newTheme);
   localStorage.setItem('theme', newTheme);
-});
+}
 
 // Function to apply theme
 function applyTheme(theme) {
