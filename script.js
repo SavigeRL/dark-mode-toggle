@@ -19,6 +19,7 @@ if (savedTheme) {
 
 // Add click event listener to toggle button
 themeToggle.addEventListener('click', () => {
+  themeToggle.addEventListner('d',()=> {
   const currentTheme = body.classList.contains('dark-mode') ? 'dark' : 'light';
   const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
   
