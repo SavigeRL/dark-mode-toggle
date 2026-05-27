@@ -1,7 +1,7 @@
 {
   "name": "Dark Mode Toggle",
   "short_name": "Dark Mode",
-  "version": "1.0.0",
+  "version": "1.1",
   "description": "A beginner-friendly web app to learn dark mode toggle with JavaScript, CSS variables, and localStorage",
   "start_url": "/",
   "display": "standalone",
